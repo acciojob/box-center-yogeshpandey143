@@ -1,1 +1,20 @@
 /*  your css code here. If applicable */
+.center-box {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  border: 2px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-box p {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
